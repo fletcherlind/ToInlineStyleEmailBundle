@@ -18,7 +18,7 @@
             <argument type="service" id="templating.locator" />
             <argument type="service" id="templating.name_parser" />
             <argument>%kernel.root_dir%</argument>
-            <argument>%kernel.debug%</argument>
+            <argument>true</argument>
             <tag name="twig.extension" />
         </service>
     </services>
